@@ -3,6 +3,7 @@
   min-height: 100vh;
   background-color: var(--main-bg-color);
   color: var(--nav-title-color);
+  position: relative;
 }
 
 .title {
@@ -13,6 +14,12 @@
 
 .hr {
   border: 1px solid var(--nav-title-color-light);
-  width: 24.2rem;
+  max-width: 24.2rem;
   margin: 4rem auto 0 auto;
+}
+
+.search_footer_wrapper {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
