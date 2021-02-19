@@ -1,0 +1,19 @@
+.recipe_links {
+  color: var(--nav-text-color);
+  width: 30rem;
+  margin: 0 auto;
+  padding-top: 7rem;
+}
+
+.ul {
+  text-align: center;
+  list-style-type: none;
+}
+
+.li {
+  font-size: 1.6rem;
+}
+
+.li:not(:last-child) {
+  margin-bottom: 2.2rem;
+}
