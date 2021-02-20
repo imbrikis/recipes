@@ -1,0 +1,32 @@
+.li {
+  font-size: 1.6rem;
+  position: relative;
+}
+
+.li:not(:last-child) {
+  margin-bottom: 2.2rem;
+}
+
+.li_selected {
+  background-color: rgba(255, 255, 255, 0.089);
+}
+
+.link {
+  color: var(--nav-text-color);
+  cursor: pointer;
+}
+
+.link_hover_mask {
+  position: absolute;
+  transform: translateX(-100%);
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.178);
+  cursor: pointer;
+  transition: all ease-in-out 0.25s;
+}
+
+.li:hover:not(.li_selected) .link_hover_mask {
+  transform: translateX(0%);
+  transition: all ease-in-out 0.25s;
+}
