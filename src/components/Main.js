@@ -6,7 +6,7 @@ import RecipeCard from './RecipeCard';
 const Main = ({ recipes, selectedRecipe }) => {
   return (
     <div className={styles.container}>
-      <RecipeCard selectedRecipe={selectedRecipe} />
+      <RecipeCard selectedRecipe={selectedRecipe} recipes={recipes} />
     </div>
   );
 };
